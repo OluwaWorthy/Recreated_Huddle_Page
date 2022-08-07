@@ -20,12 +20,12 @@ html, body {
     justify-items: center;
   }
   .SectA{
-    background-image: url(file:///C:/Users/eunic/..Fullstack/Images/bg-hero-desktop.svg);
     box-sizing: border-box;
     background-color: hsl(193, 100%, 96%);
     margin: 0;
     height: 100vh;
     padding-bottom: 20px;
+    background-image: url(file:///C:/Users/eunic/..Fullstack/Task Result/DesignRecreation_ResponsivenessII/Images/bg-hero-desktop.svg);
   }
   .mainA{
     display: flex;
