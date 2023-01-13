@@ -274,6 +274,7 @@
     body{
        width:auto;
        }
+      }
  @media (min-width:768px) and (max-width:991px) {
     html{
        min-width: 768px;
@@ -311,5 +312,45 @@
        }
     p{
       font-size: large;
-   }
-   }
+      width: 100%;
+    }
+    .SectA, .mainA{
+      display: flex;
+      flex-direction: column;
+    }
+    .SectB{
+    display: flex;
+    flex-direction: column;
+    }
+    .SectC{
+      display: flex;
+      flex-direction: column;
+    }
+   .SectD{
+    display: flex;
+    flex-direction: column;
+    }
+    .SectF{
+      padding: 2vh;
+      padding-top: 5vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: space-between;
+      align-content: center;
+      justify-self: center;
+      text-align: center;
+      align-items: center;
+    }
+   .footerlogo.col-1{
+      align-self: center;
+      height: 20%;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .leftA, .leftB, .leftD, .rightA, .RightC, .imgB, .imgB, .imgC, .imgc, .imgD, .imgd, .limg, .rimg{
+      width: 100%;
+    }
+  }
